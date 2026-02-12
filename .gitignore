@@ -1,0 +1,51 @@
+# Generic
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+*.temp
+
+# Node / npm
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IDEs
+.idea/
+*.swp
+*.swo
+
+# Build outputs
+dist/
+build/
+out/
+
+# Sensitive
+.env
+secrets.json
+credentials.json
+*.key
+*.pem
+
+# OpenClaw
+memory/
+config/research_topics.txt.old
+drafts/
